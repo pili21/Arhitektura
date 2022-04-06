@@ -1,0 +1,407 @@
+dusko@dusko-VirtualBox:~/Desktop$ mkdir arh
+dusko@dusko-VirtualBox:~/Desktop$ cd arh
+dusko@dusko-VirtualBox:~/Desktop/arh$ git clone https://github.com/pili21/arh-dump.git .
+Cloning into '.'...
+remote: Enumerating objects: 79, done.
+remote: Counting objects: 100% (79/79), done.
+remote: Compressing objects: 100% (57/57), done.
+remote: Total 79 (delta 21), reused 72 (delta 17), pack-reused 0
+Unpacking objects: 100% (79/79), 18.07 KiB | 578.00 KiB/s, done.
+dusko@dusko-VirtualBox:~/Desktop/arh$ ^C
+dusko@dusko-VirtualBox:~/Desktop/arh$ cp -r ../prog .
+dusko@dusko-VirtualBox:~/Desktop/arh$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	prog/
+
+nothing added to commit but untracked files present (use "git add" to track)
+dusko@dusko-VirtualBox:~/Desktop/arh$ x-special/nautilus-clipboard
+bash: x-special/nautilus-clipboard: No such file or directory
+dusko@dusko-VirtualBox:~/Desktop/arh$ copy
+
+Command 'copy' not found, did you mean:
+
+  command 'opy' from snap opy (latest)
+  command 'copay' from snap copay (12.5.6)
+  command 'fcopy' from deb fai-client (5.3.6ubuntu1)
+  command 'rcopy' from deb rdmacm-utils (28.0-1ubuntu1)
+  command 'ropy' from deb libdisorder-tools (0.0.2+git20130809.8062ee1-1)
+  command 'bcopy' from deb bacula-sd (9.4.2-2ubuntu5)
+  command 'hcopy' from deb hfsutils (3.2.6-14)
+  command 'copyq' from deb copyq (3.10.0-1)
+  command 'mcopy' from deb mtools (4.0.24-1)
+
+See 'snap info <snapname>' for additional versions.
+
+dusko@dusko-VirtualBox:~/Desktop/arh$ file:///home/dusko/Desktop/prog
+bash: file:///home/dusko/Desktop/prog: No such file or directory
+dusko@dusko-VirtualBox:~/Desktop/arh$ git remote add --track master upstream https://github.com/Kusla75/arh-dump.git
+dusko@dusko-VirtualBox:~/Desktop/arh$ git fetch upstream
+
+remote: Enumerating objects: 35, done.
+remote: Counting objects: 100% (35/35), done.
+remote: Compressing objects: 100% (24/24), done.
+remote: Total 33 (delta 6), reused 32 (delta 5), pack-reused 0
+Unpacking objects: 100% (33/33), 11.13 KiB | 814.00 KiB/s, done.
+From https://github.com/Kusla75/arh-dump
+ * [new branch]      master     -> upstream/master
+dusko@dusko-VirtualBox:~/Desktop/arh$ 
+dusko@dusko-VirtualBox:~/Desktop/arh$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	prog/
+
+nothing added to commit but untracked files present (use "git add" to track)
+dusko@dusko-VirtualBox:~/Desktop/arh$ git add *
+dusko@dusko-VirtualBox:~/Desktop/arh$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   prog/pripremni/pripremni_zadaci_t12.pdf
+	new file:   prog/pripremni/z1.S
+	new file:   prog/pripremni/z2.S
+	new file:   prog/pripremni/z3.S
+	new file:   prog/v1/delenje.S
+	new file:   prog/v1/faktorijel.S
+	new file:   prog/v1/fibonaci.S
+	new file:   prog/v1/mpzenje.S
+	new file:   prog/v1/nbrojeva.S
+	new file:   prog/v1/nzd.S
+	new file:   prog/v1/nzd1.S
+	new file:   prog/v1/poredi.S
+	new file:   prog/v1/resenja_v01.tar.gz
+	new file:   prog/v1/tekstovi_zadataka_v01.pdf
+	new file:   prog/v1/zadatak.s
+	new file:   prog/v2/deli.S
+	new file:   prog/v2/fibonaci.S
+	new file:   prog/v2/formula.S
+	new file:   prog/v2/mnozi.S
+	new file:   prog/v2/nzd1.S
+	new file:   prog/v2/oduzmi.S
+	new file:   prog/v2/rec.S
+	new file:   prog/v2/resenja/v02-deli64.S
+	new file:   prog/v2/resenja/v02-faktorijel-prom.S
+	new file:   prog/v2/resenja/v02-fibonaci-opt.S
+	new file:   prog/v2/resenja/v02-fibonaci-prom.S
+	new file:   prog/v2/resenja/v02-fibonaci64.S
+	new file:   prog/v2/resenja/v02-mnozisab64.S
+	new file:   prog/v2/resenja/v02-mnozsab-prom.S
+	new file:   prog/v2/resenja/v02-uporedi64.S
+	new file:   prog/v2/resenja_v02.tar.gz
+	new file:   prog/v2/sabiranjesaost.S
+	new file:   prog/v2/stepen.S
+	new file:   prog/v2/tekstovi_zadataka_v02.pdf
+	new file:   prog/v2/uporedi.S
+	new file:   prog/v3/aritmeticka_sredina.S
+	new file:   prog/v3/indeksi_min_max.S
+	new file:   prog/v3/indirektno.S
+	new file:   prog/v3/izbaci_razmake.S
+	new file:   prog/v3/mnozenjesab.S
+	new file:   prog/v3/niz.S
+	new file:   prog/v3/razmaci.S
+	new file:   prog/v3/resenja_v03.tar.gz
+	new file:   prog/v3/saberi_clanove_niza.S
+	new file:   prog/v3/samoglasnici.S
+	new file:   prog/v3/sortiranje.S
+	new file:   prog/v3/sortirano.S
+	new file:   prog/v3/suma_podniza.S
+	new file:   prog/v3/tekstovi_zadataka_v03.pdf
+	new file:   prog/v4/dodatni.S
+	new file:   prog/v4/resenja_v04.tar.gz
+	new file:   prog/v4/resenja_v04/z1/testiraj.sh
+	new file:   prog/v4/resenja_v04/z1/viste.S
+	new file:   prog/v4/resenja_v04/z1/viste_resenje.S
+	new file:   prog/v4/resenja_v04/z1/zadatak.txt
+	new file:   prog/v4/resenja_v04/z2/palindrom.S
+	new file:   prog/v4/resenja_v04/z2/palindrom_prosireno_resenje.S
+	new file:   prog/v4/resenja_v04/z2/palindrom_resenje.S
+	new file:   prog/v4/resenja_v04/z2/palindromi-srp.txt
+	new file:   prog/v4/resenja_v04/z2/testiraj.sh
+	new file:   prog/v4/resenja_v04/z2/zadatak.txt
+	new file:   prog/v4/resenja_v04/z3/stringlist.S
+	new file:   prog/v4/resenja_v04/z3/stringlist_resenje.S
+	new file:   prog/v4/resenja_v04/z3/stringlist_resenje_dodatak_sortiranje.S
+	new file:   prog/v4/resenja_v04/z3/testiraj.sh
+	new file:   prog/v4/resenja_v04/z3/zadatak.txt
+	new file:   prog/v4/tekstovi_zadataka_i_uputstva_v04.pdf
+	new file:   prog/v4/z1/testiraj.sh
+	new file:   prog/v4/z1/viste.S
+	new file:   prog/v4/z1/zadatak.txt
+	new file:   prog/v4/z2/palindrom.S
+	new file:   prog/v4/z2/palindromi-srp.txt
+	new file:   prog/v4/z2/testiraj.sh
+	new file:   prog/v4/z2/zadatak.txt
+	new file:   prog/v4/z3/stringlist.S
+	new file:   prog/v4/z3/testiraj.sh
+	new file:   prog/v4/z3/trecizad.S
+	new file:   prog/v4/z3/zadatak.txt
+	new file:   prog/vjezba/broj_rijeci.S
+	new file:   prog/vjezba/broj_velikih_malih.S
+	new file:   prog/vjezba/savko_trece.S
+	new file:   prog/vjezba/viber_image_2022-03-30_16-35-48-937.jpg
+
+dusko@dusko-VirtualBox:~/Desktop/arh$ git commit
+[master f5e3307] Dodao sam fajlove
+ 82 files changed, 4707 insertions(+)
+ create mode 100644 prog/pripremni/pripremni_zadaci_t12.pdf
+ create mode 100644 prog/pripremni/z1.S
+ create mode 100644 prog/pripremni/z2.S
+ create mode 100644 prog/pripremni/z3.S
+ create mode 100644 prog/v1/delenje.S
+ create mode 100644 prog/v1/faktorijel.S
+ create mode 100644 prog/v1/fibonaci.S
+ create mode 100644 prog/v1/mpzenje.S
+ create mode 100644 prog/v1/nbrojeva.S
+ create mode 100644 prog/v1/nzd.S
+ create mode 100644 prog/v1/nzd1.S
+ create mode 100644 prog/v1/poredi.S
+ create mode 100644 prog/v1/resenja_v01.tar.gz
+ create mode 100644 prog/v1/tekstovi_zadataka_v01.pdf
+ create mode 100644 prog/v1/zadatak.s
+ create mode 100644 prog/v2/deli.S
+ create mode 100644 prog/v2/fibonaci.S
+ create mode 100644 prog/v2/formula.S
+ create mode 100644 prog/v2/mnozi.S
+ create mode 100644 prog/v2/nzd1.S
+ create mode 100644 prog/v2/oduzmi.S
+ create mode 100644 prog/v2/rec.S
+ create mode 100644 prog/v2/resenja/v02-deli64.S
+ create mode 100644 prog/v2/resenja/v02-faktorijel-prom.S
+ create mode 100644 prog/v2/resenja/v02-fibonaci-opt.S
+ create mode 100644 prog/v2/resenja/v02-fibonaci-prom.S
+ create mode 100644 prog/v2/resenja/v02-fibonaci64.S
+ create mode 100644 prog/v2/resenja/v02-mnozisab64.S
+ create mode 100644 prog/v2/resenja/v02-mnozsab-prom.S
+ create mode 100644 prog/v2/resenja/v02-uporedi64.S
+ create mode 100644 prog/v2/resenja_v02.tar.gz
+ create mode 100644 prog/v2/sabiranjesaost.S
+ create mode 100644 prog/v2/stepen.S
+ create mode 100644 prog/v2/tekstovi_zadataka_v02.pdf
+ create mode 100644 prog/v2/uporedi.S
+ create mode 100644 prog/v3/aritmeticka_sredina.S
+ create mode 100644 prog/v3/indeksi_min_max.S
+ create mode 100644 prog/v3/indirektno.S
+ create mode 100644 prog/v3/izbaci_razmake.S
+ create mode 100644 prog/v3/mnozenjesab.S
+ create mode 100644 prog/v3/niz.S
+ create mode 100644 prog/v3/razmaci.S
+ create mode 100644 prog/v3/resenja_v03.tar.gz
+ create mode 100644 prog/v3/saberi_clanove_niza.S
+ create mode 100644 prog/v3/samoglasnici.S
+ create mode 100644 prog/v3/sortiranje.S
+ create mode 100644 prog/v3/sortirano.S
+ create mode 100644 prog/v3/suma_podniza.S
+ create mode 100644 prog/v3/tekstovi_zadataka_v03.pdf
+ create mode 100644 prog/v4/dodatni.S
+ create mode 100644 prog/v4/resenja_v04.tar.gz
+ create mode 100755 prog/v4/resenja_v04/z1/testiraj.sh
+ create mode 100644 prog/v4/resenja_v04/z1/viste.S
+ create mode 100644 prog/v4/resenja_v04/z1/viste_resenje.S
+ create mode 100644 prog/v4/resenja_v04/z1/zadatak.txt
+ create mode 100644 prog/v4/resenja_v04/z2/palindrom.S
+ create mode 100644 prog/v4/resenja_v04/z2/palindrom_prosireno_resenje.S
+ create mode 100644 prog/v4/resenja_v04/z2/palindrom_resenje.S
+ create mode 100644 prog/v4/resenja_v04/z2/palindromi-srp.txt
+ create mode 100755 prog/v4/resenja_v04/z2/testiraj.sh
+ create mode 100644 prog/v4/resenja_v04/z2/zadatak.txt
+ create mode 100644 prog/v4/resenja_v04/z3/stringlist.S
+ create mode 100644 prog/v4/resenja_v04/z3/stringlist_resenje.S
+ create mode 100644 prog/v4/resenja_v04/z3/stringlist_resenje_dodatak_sortiranje.S
+ create mode 100755 prog/v4/resenja_v04/z3/testiraj.sh
+ create mode 100644 prog/v4/resenja_v04/z3/zadatak.txt
+ create mode 100644 prog/v4/tekstovi_zadataka_i_uputstva_v04.pdf
+ create mode 100644 prog/v4/z1/testiraj.sh
+ create mode 100644 prog/v4/z1/viste.S
+ create mode 100644 prog/v4/z1/zadatak.txt
+ create mode 100644 prog/v4/z2/palindrom.S
+ create mode 100644 prog/v4/z2/palindromi-srp.txt
+ create mode 100644 prog/v4/z2/testiraj.sh
+ create mode 100644 prog/v4/z2/zadatak.txt
+ create mode 100644 prog/v4/z3/stringlist.S
+ create mode 100755 prog/v4/z3/testiraj.sh
+ create mode 100644 prog/v4/z3/trecizad.S
+ create mode 100644 prog/v4/z3/zadatak.txt
+ create mode 100644 prog/vjezba/broj_rijeci.S
+ create mode 100644 prog/vjezba/broj_velikih_malih.S
+ create mode 100644 prog/vjezba/savko_trece.S
+ create mode 100644 prog/vjezba/viber_image_2022-03-30_16-35-48-937.jpg
+dusko@dusko-VirtualBox:~/Desktop/arh$ git log
+commit f5e3307261801d311edb8ff765104f047435737e (HEAD -> master)
+Author: pili21 <pilipovicdusko5@gmail.com>
+Date:   Tue Apr 5 19:17:19 2022 +0200
+
+    Dodao sam fajlove
+
+commit 38d9892484e8b57be807f2793af95ed35dc22041 (origin/master, origin/HEAD)
+Author: Kusla75 <nikola.kuslakovic1616@gmail.com>
+Date:   Thu Mar 31 13:47:28 2022 +0200
+
+    Dodati svi reseni zadaci sa cetvrtih vezbi
+    
+    - Izvorni kod svakog zadatak se nalazi u istoimenom svom folderu
+      i u svakom folderu se nalazi i test-skripta i tekst zadatka
+
+commit e450a190477751aabf47d332064df4d164e9aa85
+Author: Kusla75 <nikola.kuslakovic1616@gmail.com>
+Date:   Mon Mar 28 20:28:29 2022 +0200
+
+    Dodati svi zadaci sa trecih vezbi koji nisu imali resenja
+
+commit c4e413319d2bc9c46b3b47feb71a9e46c427498d
+Author: Kusla75 <nikola.kuslakovic1616@gmail.com>
+Date:   Sun Mar 27 17:24:03 2022 +0200
+
+    Ispravljen zadatak faktorijel
+
+commit ae01a89dbac14ddb7a3c5302b40cfd32f7b70cd2
+dusko@dusko-VirtualBox:~/Desktop/arh$ 
+dusko@dusko-VirtualBox:~/Desktop/arh$ git push -u origin master
+Username for 'https://github.com': pili21
+Password for 'https://pili21@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/pili21/arh-dump.git/'
+dusko@dusko-VirtualBox:~/Desktop/arh$ cd
+dusko@dusko-VirtualBox:~$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/dusko/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/dusko/.ssh/id_rsa
+Your public key has been saved in /home/dusko/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:Ph+BmvBdqqCvKDRieGRDbBa7G6UsQNgHXabemjeCbdE dusko@dusko-VirtualBox
+The key's randomart image is:
++---[RSA 3072]----+
+|.+o+ .o          |
+|o *.oo           |
+|.+..o            |
+|..+= o   .       |
+|oo=.+ E S o      |
+|o=.= * = o .     |
+|+.+ B * = .      |
+|.. o + o o .     |
+|o oo. .   .      |
++----[SHA256]-----+
+dusko@dusko-VirtualBox:~$ cd .ssh
+dusko@dusko-VirtualBox:~/.ssh$ nano id_rsa.pub
+dusko@dusko-VirtualBox:~/.ssh$ gedit id_rsa.pub
+
+^C
+dusko@dusko-VirtualBox:~/.ssh$ cd
+dusko@dusko-VirtualBox:~$ cd Desktop
+dusko@dusko-VirtualBox:~/Desktop$ cd arh
+dusko@dusko-VirtualBox:~/Desktop/arh$ git commit
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+dusko@dusko-VirtualBox:~/Desktop/arh$ git push -u origin master
+Username for 'https://github.com': pili2 
+Password for 'https://pili2@github.com': 
+dusko@dusko-VirtualBox:~/Desktop/arh$ git remote set-url origin git@github.com:pili21/arh-dump.git
+dusko@dusko-VirtualBox:~/Desktop/arh$ git push -u origin master
+The authenticity of host 'github.com (140.82.121.3)' can't be established.
+ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com,140.82.121.3' (ECDSA) to the list of known hosts.
+Enumerating objects: 87, done.
+Counting objects: 100% (87/87), done.
+Compressing objects: 100% (86/86), done.
+Writing objects: 100% (86/86), 729.28 KiB | 9.23 MiB/s, done.
+Total 86 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 1 local object.
+To github.com:pili21/arh-dump.git
+   38d9892..f5e3307  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+dusko@dusko-VirtualBox:~/Desktop/arh$ git fatch upstream
+git: 'fatch' is not a git command. See 'git --help'.
+
+The most similar command is
+	fetch
+dusko@dusko-VirtualBox:~/Desktop/arh$ git fetch upstream
+dusko@dusko-VirtualBox:~/Desktop/arh$ git reset --hard HEAD //.,.,?<?><"
+bash: syntax error near unexpected token `<'
+dusko@dusko-VirtualBox:~/Desktop/arh$ git reset --hard HEAD~1
+HEAD is now at 38d9892 Dodati svi reseni zadaci sa cetvrtih vezbi
+dusko@dusko-VirtualBox:~/Desktop/arh$ git log
+commit 38d9892484e8b57be807f2793af95ed35dc22041 (HEAD -> master)
+Author: Kusla75 <nikola.kuslakovic1616@gmail.com>
+Date:   Thu Mar 31 13:47:28 2022 +0200
+
+    Dodati svi reseni zadaci sa cetvrtih vezbi
+    
+    - Izvorni kod svakog zadatak se nalazi u istoimenom svom folderu
+      i u svakom folderu se nalazi i test-skripta i tekst zadatka
+
+commit e450a190477751aabf47d332064df4d164e9aa85
+Author: Kusla75 <nikola.kuslakovic1616@gmail.com>
+Date:   Mon Mar 28 20:28:29 2022 +0200
+
+    Dodati svi zadaci sa trecih vezbi koji nisu imali resenja
+
+commit c4e413319d2bc9c46b3b47feb71a9e46c427498d
+Author: Kusla75 <nikola.kuslakovic1616@gmail.com>
+Date:   Sun Mar 27 17:24:03 2022 +0200
+
+    Ispravljen zadatak faktorijel
+
+commit ae01a89dbac14ddb7a3c5302b40cfd32f7b70cd2
+Author: Kusla75 <nikola.kuslakovic1616@gmail.com>
+Date:   Thu Mar 24 22:03:09 2022 +0100
+
+    Dodata dva nova zadataka u v03
+
+commit a099d60d7bb7d2181b18bb109d4dd96af77e5423
+Author: Kusla75 <nikola.kuslakovic1616@gmail.com>
+Date:   Tue Mar 22 22:34:03 2022 +0100
+
+
+dusko@dusko-VirtualBox:~/Desktop/arh$ git fetch 
+Warning: Permanently added the ECDSA host key for IP address '140.82.121.4' to the list of known hosts.
+dusko@dusko-VirtualBox:~/Desktop/arh$ git fetch upstram
+fatal: 'upstram' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+dusko@dusko-VirtualBox:~/Desktop/arh$ git fetch upstream
+dusko@dusko-VirtualBox:~/Desktop/arh$ git log
+commit 38d9892484e8b57be807f2793af95ed35dc22041 (HEAD -> master)
+Author: Kusla75 <nikola.kuslakovic1616@gmail.com>
+Date:   Thu Mar 31 13:47:28 2022 +0200
+
+    Dodati svi reseni zadaci sa cetvrtih vezbi
+    
+    - Izvorni kod svakog zadatak se nalazi u istoimenom svom folderu
+      i u svakom folderu se nalazi i test-skripta i tekst zadatka
+
+commit e450a190477751aabf47d332064df4d164e9aa85
+Author: Kusla75 <nikola.kuslakovic1616@gmail.com>
+Date:   Mon Mar 28 20:28:29 2022 +0200
+
+    Dodati svi zadaci sa trecih vezbi koji nisu imali resenja
+
+commit c4e413319d2bc9c46b3b47feb71a9e46c427498d
+Author: Kusla75 <nikola.kuslakovic1616@gmail.com>
+Date:   Sun Mar 27 17:24:03 2022 +0200
+
+    Ispravljen zadatak faktorijel
+
+commit ae01a89dbac14ddb7a3c5302b40cfd32f7b70cd2
+Author: Kusla75 <nikola.kuslakovic1616@gmail.com>
+Date:   Thu Mar 24 22:03:09 2022 +0100
+
+    Dodata dva nova zadataka u v03
+
+commit a099d60d7bb7d2181b18bb109d4dd96af77e5423
+
